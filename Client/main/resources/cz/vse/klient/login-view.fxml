@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="cz.vse.klient.LoginController"
+            prefHeight="200.0" prefWidth="300.0">
+    <children>
+        <VBox alignment="CENTER" spacing="10" AnchorPane.topAnchor="50.0" AnchorPane.leftAnchor="50.0">
+            <Label text="Enter your username:"/>
+            <TextField fx:id="usernameField"/>
+            <Button text="Start Game" onAction="#handleStartGame"/>
+        </VBox>
+    </children>
+    <Button fx:id="exitButton" text="Exit Game" onAction="#handleExitGame"
+            AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="50.0"
+            prefWidth="150.0"/>
+</AnchorPane>

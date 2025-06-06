@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="cz.vse.klient.GameController"
+            prefHeight="600.0" prefWidth="800.0">
+
+    <children>
+
+        <!-- Výběr lodi -->
+        <ComboBox fx:id="shipSelector"
+                  AnchorPane.topAnchor="10.0" AnchorPane.leftAnchor="50.0"
+                  prefWidth="200.0"/>
+
+        <!-- Herní mřížka hráče -->
+        <GridPane fx:id="playerGrid" hgap="5" vgap="5"
+                  AnchorPane.topAnchor="50.0" AnchorPane.leftAnchor="50.0"/>
+
+        <!-- Herní mřížka soupeře -->
+        <GridPane fx:id="enemyGrid" hgap="5" vgap="5"
+                  AnchorPane.topAnchor="50.0" AnchorPane.rightAnchor="50.0"/>
+
+        <!-- Potvrzení lodí -->
+        <Button fx:id="exitButton" text="Exit Game" onAction="#handleExitGame"
+                AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="50.0"
+                prefWidth="150.0"/>
+
+
+        <!-- Chat a zprávy -->
+        <TextArea fx:id="chatArea" editable="false"
+                  AnchorPane.bottomAnchor="40.0" AnchorPane.leftAnchor="250.0" AnchorPane.rightAnchor="250.0"
+                  prefHeight="100.0"/>
+        <Label fx:id="usernameLabel" layoutX="10.0" layoutY="10.0" text="Username"
+               AnchorPane.topAnchor="10.0" AnchorPane.rightAnchor="10.0"/>
+    </children>
+</AnchorPane>
