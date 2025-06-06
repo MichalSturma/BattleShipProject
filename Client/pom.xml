@@ -4,6 +4,14 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
+    <parent>
+        <groupId>cz.vse</groupId>
+        <artifactId>BattleShipGameProject</artifactId>
+        <version>1.0-SNAPSHOT</version>
+        <relativePath>../pom.xml</relativePath>
+    </parent>
+
+
     <groupId>cz.vse.klient</groupId>
     <artifactId>klient</artifactId>
     <version>1.0-SNAPSHOT</version>
