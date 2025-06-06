@@ -5,7 +5,7 @@
 
 <AnchorPane xmlns="http://javafx.com/javafx"
             xmlns:fx="http://javafx.com/fxml"
-            fx:controller="cz.vse.klient.LoginController"
+            fx:controller="java.cz.vse.klient.LoginController"
             prefHeight="200.0" prefWidth="300.0">
     <children>
         <VBox alignment="CENTER" spacing="10" AnchorPane.topAnchor="50.0" AnchorPane.leftAnchor="50.0">

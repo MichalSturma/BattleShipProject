@@ -80,7 +80,7 @@
                     </descriptorRefs>
                     <archive>
                         <manifest>
-                            <mainClass>cz.vse.klient.Client</mainClass>
+                            <mainClass>java.cz.vse.klient.Client</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
@@ -118,7 +118,7 @@
                     <execution>
                         <id>default-cli</id>
                         <configuration>
-                            <mainClass>cz.vse.klient/cz.vse.klient.Client</mainClass>
+                            <mainClass>cz.vse.klient/java.cz.vse.klient.Client</mainClass>
                             <launcher>app</launcher>
                             <jlinkZipName>app</jlinkZipName>
                             <jlinkImageName>app</jlinkImageName>
